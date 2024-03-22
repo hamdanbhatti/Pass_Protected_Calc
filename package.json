@@ -1,7 +1,9 @@
 {
-  "name": "pass_protected-calc",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "pass_protected_calc",
+  "version": "1.0.3",
+  "main": "main.js",
+  "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +12,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/inquirer": "^9.0.7",
     "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
   }
 }
